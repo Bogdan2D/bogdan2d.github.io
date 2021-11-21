@@ -39,10 +39,9 @@ for(let i = 0; i < games.length; i++){
     }
     
     img.onclick = function(){
-        alert("You are about the leave this page.");
         switch(gameTitle.innerHTML){
             case 'Dash OVERLORD':
-                window.open('https://www.newgrounds.com/portal/view/819901', '_self');
+                window.open('https://www.newgrounds.com/portal/view/819901', '_blank');
         }
     }
 
