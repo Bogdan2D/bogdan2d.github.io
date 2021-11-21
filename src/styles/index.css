@@ -1,0 +1,104 @@
+@font-face {
+  font-family: karma;
+  src: url(src/fonts/karma.TTF);
+}
+
+* {
+  font-family: monospace;
+}
+
+#myName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 100px;
+}
+
+#subText {
+  display: flex;
+  color: white;
+  font-size: 2rem;
+  justify-content: center;
+  margin-top: -6.5rem;
+  margin-left: 18rem;
+}
+
+#baseContent {
+  display: flex;
+
+  color: white;
+  justify-content: center;
+  font-size: 25px;
+}
+
+#gameTitle {
+  display: flex;
+  margin-top: -0.5rem;
+  font-size: 3.6rem;
+}
+
+#gameDesc {
+  display: flex;
+  margin-top: -3rem;
+  margin-left: 3rem;
+  text-align: center;
+}
+
+#footer {
+  display: flex;
+  color: red;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+#navBar {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+#homePageItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.socials {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#aboutPageItems {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 3rem;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: darkred;
+  background-color: transparent;
+  text-decoration: underline;
+}
