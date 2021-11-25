@@ -4,6 +4,7 @@ const chooseRandom = true;
 const bannerImage = document.createElement('img');
 bannerImage.id = "banner";
 bannerImage.alt = "homePageImage";
+bannerImage.style.borderRadius = '25px';
 
 if(chooseRandom){
     bannerImage.src = "images/homeImages/" + randomNumber + ".png";
