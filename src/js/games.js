@@ -3,7 +3,7 @@ const games = [
     {
         "gameImage": "images/DashOVERLORD.png",
         "gameTitle": "Dash OVERLORD",
-        "description": "Pass a few levels.<br>Sounds easy, right?"        
+        "description": "Pass a few levels.Sounds<br>easy, right?"        
     }
 ];
 
@@ -37,6 +37,14 @@ for(let i = 0; i < games.length; i++){
         img.style.borderRadius = '25px';
         img.style.border = '5px solid #555';
     }
+
+    if(i != 0){
+        const distance = '2rem';
+        img.style.marginLeft += distance;
+        gameTitle.style.marginLeft += distance;
+        gameDesc.style.marginLeft += distance;
+    }
+
     
     img.onclick = function(){
         switch(gameTitle.innerHTML){
