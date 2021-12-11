@@ -4,6 +4,11 @@ const games = [
         "gameImage": "images/DashOVERLORD.png",
         "gameTitle": "Dash OVERLORD",
         "description": "Pass a few levels.Sounds<br>easy, right?"        
+    },
+    {
+        "gameImage": "images/HxJamHuh.png",
+        "gameTitle": "?????????????",
+        "description": "2021 (December 17-19)"        
     }
 ];
 
@@ -50,6 +55,8 @@ for(let i = 0; i < games.length; i++){
         switch(gameTitle.innerHTML){
             case 'Dash OVERLORD':
                 window.open('https://www.newgrounds.com/portal/view/819901', '_blank');
+            case '?????????????':
+                window.open('https://itch.io/jam/haxejam-2021-winter-editon', '_blank');
         }
     }
 
