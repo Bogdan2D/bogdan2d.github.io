@@ -1,12 +1,12 @@
 
 const games = [
     {
-        "gameImage": "images/DashOVERLORD.png",
+        "gameImage": "../images/DashOVERLORD.png",
         "gameTitle": "Dash OVERLORD",
         "description": "Pass a few levels.Sounds<br>easy, right?"        
     },
     {
-        "gameImage": "images/HxJamHuh.png",
+        "gameImage": "../images/HxJamHuh.png",
         "gameTitle": "?????????????",
         "description": "2021 (December 17-19)"        
     }

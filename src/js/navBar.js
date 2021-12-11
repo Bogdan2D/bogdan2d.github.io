@@ -9,7 +9,7 @@ subText.innerHTML = "I make stuff"
 //--------------------\\
 
 const options = ['Home', 'Games', 'About', 'Contact'];
-const optionsRedirects = ['index', 'games', 'about', 'contact'];
+const optionsRedirects = ['home', 'games', 'about', 'contact'];
 
 const navBar = document.createElement('div');
 navBar.id = "navBar";

@@ -1,5 +1,5 @@
 let randomNumber = Math.floor(Math.random() * 2);
-const chooseRandom = true;
+const chooseRandom = true; //set to false if you want to force a certain image
 
 const bannerImage = document.createElement('img');
 bannerImage.id = "banner";
@@ -7,10 +7,11 @@ bannerImage.alt = "homePageImage";
 bannerImage.style.borderRadius = '25px';
 
 if(chooseRandom){
-    bannerImage.src = "images/homeImages/" + randomNumber + ".png";
+    bannerImage.src = "../images/homeImages/" + randomNumber + ".png";
     bannerImage.alt = "homePageImage" + randomNumber;
 }else{
-    bannerImage.src = "images/homeImages/0.png";
+    bannerImage.src = "../images/homeImages/force.png";
+    bannerImage.alt = "homePageImage";
 }
 
 console.log(randomNumber);
