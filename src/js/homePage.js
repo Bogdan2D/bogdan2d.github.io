@@ -1,5 +1,5 @@
 let randomNumber = Math.floor(Math.random() * 2);
-const chooseRandom = true; //set to false if you want to force a certain image
+const chooseRandom = false; //set to false if you want to force a certain image
 
 const bannerImage = document.createElement('img');
 bannerImage.id = "banner";
