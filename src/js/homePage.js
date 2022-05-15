@@ -17,4 +17,4 @@ if(chooseRandom){
 console.log(randomNumber);
 
 const placedDiv = document.getElementById('homePageItems');
-placedDiv.appendChild(bannerImage);
+//placedDiv.appendChild(bannerImage);
